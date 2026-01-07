@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Jacques+Francois+Shadow&display=swap');
+
+
+:root{
+  --ff-primary: "Seaweed Script", cursive;
+    --ff-secondary:"inter",sans-serif;
+    --ff-desigin: "Diplomata SC", serif;
+      --ff-manage: "Jacques Francois Shadow", serif;
+      --ff-prodect:  "Black Ops One", system-ui;
+      --ff-prodect: "Black Ops One", system-ui;;
+}
+
+
+.main{
+    background: #010d26;
+}
+
+.navbar{
+    background-color: #2c3d5e; 
+}
+.nav-img{
+    width: 100px;
+}
+.nav-logo h4{
+    font-size: 13px;
+}
+.nav-logo p{
+    margin-top: -12px;
+    font-size: 10px;
+}
+.form-control{
+    outline: none; 
+}
+.dropdown-menu{
+    background-color: #010d26;
+}
+.nav-item a{
+    color: #c7ac79;
+    /* background: linear-gradient(10deg, #c7ac79,#1c2c4d); */
+}
+.dropdown-item{
+    color: black;
+}
+.dropdown-menu{
+  background-color: #2c3d5e;
+}
+.btn{
+    width: 150px;
+}
+.main-item{
+    color: #1a1a1a;
+    font-weight: lighter;
+}
+/* --nav-end-- */
+
+.about{
+  background: linear-gradient(rgba(0, 0, 0, 0.6)), url("./img/bac-1.webp") center/cover no-repeat fixed;
+}
+.logo{
+  width: 150px;
+}
+.chin
+{
+   background: #010d26;
+}
+.about-img {
+  border-radius: 15px;
+}
+.about-img:hover{
+  opacity: 0.5;
+}
+/* 
+.content-4{
+  padding-left: 5rem;
+} */
+/*--- ppansentage-start--- */
+
+.parsentage-list{
+  flex-wrap: wrap;
+}
+
+.pansentage-item:hover{
+  /* box-shadow: 5px 5px 5px 1px rgb(123, 114, 97); */
+  transition: 0.5s;
+  /* background-color: #1a1a1a; */
+  border: 2px solid #c7ac79;
+  border-radius: 25px;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  transform: translateY(-5px);
+}
+.pansentage-item h1{
+  /* border: 1.5 solid #c7ac79; */
+  color: #c7ac79;
+
+}
+.pansentage-list{
+  /* border: 1.5 solid #c7ac79; */
+  justify-content: space-around;
+
+}
+
+/* ---subscribe-start--- */
+
+.subscribe{
+  background: linear-gradient(rgba(0, 0, 0, 0.6)), url("./img/bac-1.webp") center/cover no-repeat fixed;
+}
+.subscribe-item h1{
+  color: #c7ac79;
+}
+.subscribe-item button{
+  background-color: #e7ca93;
+  color: black;
+  width: 130px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.subscribe-item button:hover{
+  background-color: #2c3d5e;
+  color: #fff;
+}
+
+
+/* ---subscribe-end--- */
+
+.footer-list{
+  background-color: #2c3d5e;
+}
+.footer-text h2{
+    font-size: 12px;
+}
+.footer-text h6:hover{
+    background-color: #c7ac79;
+    width: 70%;
+    transition: 0.3s;
+    border-radius: 3px;
+    color: black;
+    padding: 2px;
+    padding-left: 5px;
+}
+
+
+/* --footer-start--- */
+.footer-item h4{
+  font-family: var(--h2);
+  color: #c7ac79;
+}
+.footer-item p{
+  font-family: var(--a);
+}
+.footer-text h2{
+  color: #c7ac79;
+}
+.footer-text h6{
+  font-family: var(--a);
+  border-radius: 3px;
+  padding: 2px;
+  font-size: 12px;
+  padding-left: 5px;
+}
+.footer-text{
+  font-family: var(--a);
+  flex-wrap: wrap;
+}
+.footer-text ul li{
+  list-style: none;
+  gap: 20px;
+}
+.footer-text ul li img{
+  margin-left: 10px;
+}
+.footer-text ul li img:hover{
+  background-color: #c7ac79;
+  padding: 2px;
+  transition: 0.3s;
+  border-radius: 50%;
+}
+footer h6{
+  font-family: var(--h2);
+}
+footer ul li{
+  list-style: none;
+}
+.one:focus{
+  border: none;
+}   
+.search-1{
+  border-radius: 5px;
+  border: none;
+}
+.main-button{
+  background-color: #e7ca93;
+  border: none;
+  width: 80px;
+  margin-left: -88px;
+  border-radius: 5px;
+}
+form button:hover{
+  background-color: #010d26;
+  color: #fff;
+  transition: 0.5s;
+}
+h6 span{
+  color: #c7ac79;
+}
+
+/* ---footer-end--- */
